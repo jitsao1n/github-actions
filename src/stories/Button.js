@@ -15,7 +15,7 @@ export const Button = ({ primary, backgroundColor = null, size, label, onClick }
       style=${styleMap({ backgroundColor })}
       @click=${onClick}
     >
-      cool ${label} after
+      cool ${label} after hahaha
     </button>
   `;
 };
