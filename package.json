@@ -28,7 +28,8 @@
     "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "dependencies": {
-    "@stencil/core": "^2.13.0"
+    "@stencil/core": "^2.13.0",
+    "cross-env": "^7.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
